@@ -1,0 +1,1 @@
+# LP_ICT10_Q3Seatwork2_Magpantay_Trisha
