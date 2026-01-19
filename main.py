@@ -16,10 +16,10 @@ def assign_team(event=None):
 
         if section == "ruby":
             team = "Yellow Tigers 🐯"
-        elif section == "sapphire":
-            team = "Green Hornets 🐝"
         elif section == "emerald":
             team = "Red Bulldogs 🐶"
+        elif section == "sapphire":
+            team = "Green Hornets 🐝"
         else:
             team = "Blue Bears 🐻"
 
@@ -36,4 +36,5 @@ def assign_team(event=None):
         )
 
 button = document.getElementById("signup")
+
 button.addEventListener("click", create_proxy(assign_team))
